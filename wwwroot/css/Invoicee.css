@@ -1,0 +1,1165 @@
+﻿@media screen {
+    body
+
+{
+    background: #DCDCDC
+}
+
+#chenar {
+    border: 1px solid black;
+    width: 1000px;
+    margin: auto;
+    background: #FFF;
+    -webkit-box-shadow: 0 0 10px 3px #666;
+    -moz-box-shadow: 0 0 10px 3px #666;
+    box-shadow: 0 0 10px 3px #666;
+}
+
+#print {
+    width: 1000px;
+    margin: auto;
+    margin-top: 10px
+}
+
+button {
+    float: right
+}
+
+#nota {
+    text-align: center;
+    margin-top: 50px
+}
+
+table {
+    font-size: 16px;
+    margin: auto
+}
+
+#titlu {
+    text-align: center;
+    margin-bottom: 10px
+}
+
+/* border */
+
+#red {
+    color: red;
+}
+
+#border_cub_sus {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-top: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+#border_cub_mijloc {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+
+
+#border_cub_jos {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+}
+
+
+
+.border_stanga {
+    border-left: 1px solid black;
+    text-align: center;
+    padding-top: 1px
+}
+
+
+
+.border_sus_stanga2 {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    padding-left: 5px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+}
+
+
+
+.border_sus_stanga3 {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    padding-right: 1px;
+    padding-bottom: 1px;
+}
+
+
+
+.border_sus_stanga3 {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    padding-left: 5px;
+}
+
+
+
+.border_stanga_tabel3 {
+    border-left: 1px solid black;
+    padding-left: 5px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+}
+
+
+
+.border_sus_jos_stanga {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+
+
+.border_stanga_jos {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+
+.border_sus_jos {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+
+
+.border_jos {
+    border-bottom: 1px solid black;
+}
+
+
+
+.border_sus {
+    border-top: 1px solid black;
+}
+
+
+
+.border_sus2 {
+    border-top: 1px solid black;
+    padding-left: 5px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+}
+
+
+
+.padding_tabel_jos {
+    padding-left: 5px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+}
+
+
+
+
+
+.border_sus_stanga {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    text-align: center
+}
+
+
+
+/* align */
+
+
+#align_seria_sus {
+    text-align: right;
+}
+
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+    text-align: center
+}
+
+
+h2 {
+    padding: 0px;
+    margin: 0px;
+    text-align: center
+}
+
+
+h6 {
+    padding: 0px;
+    margin: 0px;
+    text-align: center
+}
+
+
+
+.center {
+    text-align: center;
+    padding-top: 1px
+}
+
+
+
+/* text input */
+
+
+
+#furnizor_input {
+    width: 251px;
+    float: right
+}
+
+
+
+.seria_nr_input {
+    width: 149px;
+}
+
+
+
+#cumparator_input {
+    width: 228px;
+    float: right
+}
+
+
+
+.nr_reg_com_input {
+    width: 172px;
+    float: right
+}
+
+
+
+.cif_input {
+    width: 264px;
+    float: right
+}
+
+
+
+#capital_social_input {
+    width: 220px;
+    float: right
+}
+
+
+
+.sediul_input {
+    width: 264px;
+    float: right
+}
+
+
+
+.judetul_input {
+    width: 260px;
+    float: right
+}
+
+
+
+.iban_input {
+    width: 234px;
+    float: right
+}
+
+
+
+.banca_input {
+    width: 264px;
+    float: right
+}
+
+
+
+#nr_facturii_input {
+    width: 226px;
+    float: right
+}
+
+
+
+#data_facturii_input {
+    width: 160px;
+    float: right
+}
+
+
+
+#nr_aviz_input {
+    width: 148px;
+    float: right
+}
+
+
+
+.nr_crt_input {
+    width: 50px
+}
+
+
+
+.denumire_prod_input {
+    width: 565px
+}
+
+
+
+.cantitate {
+    width: 77px
+}
+
+
+
+.pret_unitar_input {
+    width: 118px
+}
+
+
+
+.totalmictva {
+    width: 117px
+}
+
+
+
+.totalmic {
+    width: 123px
+}
+
+
+
+.pret {
+    width: 123px
+}
+
+
+
+#tabel3_nume_input {
+    width: 128px;
+    float: right
+}
+
+
+
+#tabel3_prenume_input {
+    width: 98px;
+    float: right
+}
+
+
+
+#tabel3_buletin_input {
+    width: 122px;
+    float: right
+}
+
+
+
+#tabel3_cnp_input {
+    width: 132px;
+    float: right
+}
+
+
+
+#tabel3_nume_delegat_input {
+    width: 276px;
+    float: right
+}
+
+
+
+#tabel3_buletin_seria_input {
+    width: 26px;
+}
+
+
+
+#tabel3_buletin_nr_input {
+    width: 52px;
+}
+
+
+
+#tabel3_buletin_eliberat_input {
+    width: 131px;
+    float: right
+}
+
+
+
+#tabel3_mijloc_transport_input {
+    width: 115px;
+}
+
+
+
+#tabel3_mijloc_transport_nr_input {
+    width: 122px;
+    float: right
+}
+
+
+
+#tabel3_data_input {
+    width: 150px;
+}
+
+
+
+#tabel3_ora_input {
+    width: 160px;
+    float: right
+}
+
+
+
+.totalmaretva {
+    width: 117px;
+    height: 35px;
+    text-align: center
+}
+
+
+
+.totalmare {
+    width: 117px;
+    height: 35px;
+    text-align: center
+}
+
+
+
+.accize_input {
+    width: 117px;
+    height: 35px;
+    text-align: center
+}
+
+
+
+#total_plata {
+    text-align: center;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+
+
+#final {
+    width: 120px;
+    text-align: center
+}
+
+
+
+/* tabelul de sus */
+
+
+
+.tabel_sus_padding {
+    padding-left: 5px;
+    padding-right: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+
+/*meniu*/
+
+
+#cssmenu,
+#cssmenu ul,
+#cssmenu li,
+#cssmenu a {
+    border: none;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+#cssmenu {
+    height: 37px;
+    display: block;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 1000px;
+    border-color: #080808;
+    margin: auto;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+    #cssmenu > ul {
+        list-style: inside none;
+        margin: 0;
+        padding: 0;
+    }
+
+        #cssmenu > ul > li {
+            list-style: inside none;
+            float: left;
+            display: inline-block;
+            position: relative;
+            margin: 0;
+            padding: 0;
+        }
+
+    #cssmenu.align-center > ul {
+        text-align: center;
+    }
+
+        #cssmenu.align-center > ul > li {
+            float: none;
+            margin-left: -3px;
+        }
+
+    #cssmenu.align-center ul ul {
+        text-align: left;
+    }
+
+    #cssmenu.align-center > ul > li:first-child > a {
+        border-radius: 0;
+    }
+
+    #cssmenu > ul > li > a {
+        outline: none;
+        display: block;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+        font-weight: 700;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-right: 1px solid #080808;
+        color: #ffffff;
+        padding: 12px 20px;
+    }
+
+    #cssmenu > ul > li:first-child > a {
+        border-radius: 5px 0 0 5px;
+    }
+
+    #cssmenu > ul > li > a:after {
+        content: "";
+        position: absolute;
+        top: -1px;
+        bottom: -1px;
+        right: -2px;
+        z-index: 99;
+    }
+
+    #cssmenu ul li.has-sub:hover > a:after {
+        top: 0;
+        bottom: 0;
+    }
+
+    #cssmenu > ul > li.has-sub > a:before {
+        content: "";
+        position: absolute;
+        top: 18px;
+        right: 6px;
+        border: 5px solid transparent;
+        border-top: 5px solid #ffffff;
+    }
+
+    #cssmenu > ul > li.has-sub:hover > a:before {
+        top: 19px;
+    }
+
+    #cssmenu > ul > li.has-sub:hover > a {
+        padding-bottom: 14px;
+        z-index: 999;
+        border-color: #3f3f3f;
+    }
+
+    #cssmenu ul li.has-sub:hover > ul,
+    #cssmenu ul li.has-sub:hover > div {
+        display: block;
+    }
+
+    #cssmenu > ul > li.has-sub > a:hover,
+    #cssmenu > ul > li.has-sub:hover > a {
+        background: #080808;
+        border-color: #3f3f3f;
+    }
+
+    #cssmenu ul li > ul,
+    #cssmenu ul li > div {
+        display: none;
+        width: auto;
+        position: absolute;
+        top: 38px;
+        background: #080808;
+        border-radius: 0 0 5px 5px;
+        z-index: 999;
+        padding: 10px;
+        color: #FFF;
+        text-align: center
+    }
+
+    #cssmenu ul li > ul {
+        width: 200px;
+    }
+
+    #cssmenu ul ul ul {
+        position: absolute;
+    }
+
+    #cssmenu ul ul li:hover > ul {
+        left: 100%;
+        top: -10px;
+        border-radius: 5px;
+    }
+
+    #cssmenu ul li > ul li {
+        display: block;
+        list-style: inside none;
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+    #cssmenu,
+    #cssmenu ul ul > li:hover > a,
+    #cssmenu ul ul li a:hover {
+        background: #3c3c3c;
+        background: -moz-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3c3c3c), color-stop(100%, #222222));
+        background: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+        background: -o-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+        background: -ms-linear-gradient(top, rgb(60,60,60) 0%, #222222 100%);
+        background: linear-gradient(top, #3c3c3c 0%, #222222 100%);
+    }
+
+
+
+        #cssmenu > ul > li > a:hover {
+            background: #080808;
+            color: #ffffff;
+        }
+
+
+
+        #cssmenu > ul > li:last-child > a {
+            border-right: 0px;
+        }
+
+        #cssmenu > ul > li > a:after:last-child {
+            border-right: 0px;
+        }
+
+#rec {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#rec2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#cota {
+    margin-left: 680px;
+}
+
+    #cota a:link {
+        color: red;
+        text-decoration: none;
+    }
+
+}
+
+
+@media print {
+
+    #chenar {
+        border: 1px solid black;
+        width: 1001px;
+    }
+
+
+    table {
+        font-size: 16px;
+    }
+
+
+    /* border */
+
+
+    #border_cub_sus {
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        padding-top: 1px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+
+
+    #border_cub_mijloc {
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+
+
+    #border_cub_jos {
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 1px;
+    }
+
+
+    .border_stanga {
+        border-left: 1px solid black;
+        text-align: center;
+        padding-top: 1px
+    }
+
+
+    .border_sus_stanga2 {
+        border-left: 1px solid black;
+        border-top: 1px solid black;
+        padding-left: 5px;
+        padding-right: 1px;
+        padding-bottom: 1px;
+    }
+
+
+    .border_sus_stanga3 {
+        border-left: 1px solid black;
+        border-top: 1px solid black;
+        padding-right: 1px;
+        padding-bottom: 1px;
+    }
+
+
+    .border_sus_stanga3 {
+        border-left: 1px solid black;
+        border-top: 1px solid black;
+        padding-left: 5px;
+    }
+
+
+    .border_stanga_tabel3 {
+        border-left: 1px solid black;
+        padding-left: 5px;
+        padding-right: 1px;
+        padding-bottom: 1px;
+    }
+
+
+    .border_sus_jos_stanga {
+        border-left: 1px solid black;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        text-align: center;
+    }
+
+
+    .border_stanga_jos {
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+
+    .border_sus_jos {
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        text-align: center;
+    }
+
+
+    .border_jos {
+        border-bottom: 1px solid black;
+    }
+
+
+
+    .border_sus {
+        border-top: 1px solid black;
+    }
+
+
+
+    .border_sus2 {
+        border-top: 1px solid black;
+        padding-left: 5px;
+        padding-right: 1px;
+        padding-bottom: 1px;
+    }
+
+
+
+    .padding_tabel_jos {
+        padding-left: 5px;
+        padding-right: 1px;
+        padding-bottom: 1px;
+    }
+
+
+
+    .border_sus_stanga {
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        text-align: center
+    }
+
+
+    /* align */
+
+
+    #align_seria_sus {
+        text-align: right;
+    }
+
+
+
+    h1 {
+        padding: 0px;
+        margin: 0px;
+        text-align: center
+    }
+
+
+
+    h2 {
+        padding: 0px;
+        margin: 0px;
+        text-align: center
+    }
+
+
+
+    h6 {
+        padding: 0px;
+        margin: 0px;
+        text-align: center
+    }
+
+
+
+    .center {
+        text-align: center;
+        padding-top: 1px
+    }
+
+
+
+    /* text input */
+
+
+
+    #furnizor_input {
+        width: 251px;
+        padding-left: 5px;
+    }
+
+
+
+    .seria_nr_input {
+        width: 66px;
+    }
+
+
+
+    #cumparator_input {
+        width: 228px;
+        padding-left: 5px;
+    }
+
+
+
+    .nr_reg_com_input {
+        width: 172px;
+        padding-left: 5px;
+    }
+
+
+
+    .cif_input {
+        width: 264px;
+        padding-left: 5px;
+    }
+
+
+
+    #capital_social_input {
+        width: 220px;
+        padding-left: 5px;
+    }
+
+
+
+    .sediul_input {
+        width: 264px;
+        padding-left: 5px;
+    }
+
+
+
+    .judetul_input {
+        width: 260px;
+        padding-left: 5px;
+    }
+
+
+
+    .iban_input {
+        width: 234px;
+        padding-left: 5px;
+    }
+
+
+
+    .banca_input {
+        width: 264px;
+        padding-left: 5px;
+    }
+
+
+
+    #nr_facturii_input {
+        width: 226px;
+        padding-left: 5px;
+    }
+
+
+
+    #data_facturii_input {
+        width: 160px;
+        padding-left: 5px;
+    }
+
+
+
+    #nr_aviz_input {
+        width: 148px;
+        padding-left: 5px;
+    }
+
+
+
+    .nr_crt_input {
+        width: 41px
+    }
+
+
+
+    .denumire_prod_input {
+        width: 550px
+    }
+
+
+
+    .cantitate {
+        width: 71px
+    }
+
+
+
+    .pret_unitar_input {
+        width: 118px
+    }
+
+
+
+    .totalmictva {
+        width: 117px
+    }
+
+
+
+    .totalmic {
+        width: 117px
+    }
+
+
+
+    .pret {
+        width: 117px
+    }
+
+
+
+    #tabel3_nume_input {
+        width: 128px;
+        padding-left: 5px;
+    }
+
+
+
+    #tabel3_prenume_input {
+        width: 98px;
+        padding-left: 5px;
+    }
+
+
+
+    #tabel3_buletin_input {
+        width: 122px;
+        padding-left: 5px;
+    }
+
+
+
+    #tabel3_cnp_input {
+        width: 132px;
+        padding-left: 5px;
+    }
+
+
+
+    #tabel3_nume_delegat_input {
+        width: 280px;
+        padding-left: 5px;
+    }
+
+
+
+    #tabel3_buletin_seria_input {
+        width: 26px;
+    }
+
+
+
+    #tabel3_buletin_nr_input {
+        width: 52px;
+    }
+
+
+
+    #tabel3_buletin_eliberat_input {
+        width: 131px;
+        padding-left: 5px;
+    }
+
+
+
+    #tabel3_mijloc_transport_input {
+        width: 115px;
+    }
+
+
+
+    #tabel3_mijloc_transport_nr_input {
+        width: 122px;
+        padding-left: 5px;
+    }
+
+
+
+    #tabel3_data_input {
+        width: 150px;
+    }
+
+
+
+    #tabel3_ora_input {
+        width: 160px;
+        padding-left: 5px;
+    }
+
+
+
+    .totalmaretva {
+        width: 117px;
+        height: 35px;
+        text-align: center
+    }
+
+
+
+    .totalmare {
+        width: 117px;
+        height: 35px;
+        text-align: center
+    }
+
+
+
+    .accize_input {
+        width: 117px;
+        height: 35px;
+        text-align: center
+    }
+
+
+
+    #total_plata {
+        text-align: center;
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+    }
+
+
+
+    #final {
+        width: 120px;
+        text-align: center
+    }
+
+
+
+    /* tabelul de sus */
+
+
+
+    .tabel_sus_padding {
+        padding-left: 5px;
+        padding-right: 1px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+
+
+
+    #cssmenu, #titlu, #nota, #print {
+        display: none;
+    }
+
+
+
+    input {
+        border: 0
+    }
+}
+
+

@@ -1,0 +1,113 @@
+﻿@model IEnumerable<Application.Models.Activity>//IEnumerable=lista de activitati
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New Activity</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Amprentare)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Medic)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pacient)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Manopera)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Componente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Elemente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pret_Element)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pret_Manopera)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Adaos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pret_Final)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status_plata)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Livrare)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Data_incasarii)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mentiuni)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Amprentare)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Medic)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pacient)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Manopera)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Componente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Elemente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pret_Element)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pret_Manopera)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Adaos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pret_Final)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status_plata)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Livrare)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Data_incasarii)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mentiuni)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> 
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> 
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

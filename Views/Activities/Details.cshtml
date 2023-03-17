@@ -1,0 +1,103 @@
+﻿@model Application.Models.Activity
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Activity</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Amprentare)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Amprentare)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Medic)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Medic)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Pacient)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Pacient)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Manopera)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Manopera)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Componente)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Componente)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Elemente)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Elemente)
+        </dd>
+        <dt class = "col-sm-2" >
+            @Html.DisplayNameFor(model => model.Pret_Element ) 
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Pret_Element)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Pret_Manopera)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Pret_Manopera)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Adaos)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Adaos)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Pret_Final)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Pret_Final)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Status_plata)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Status_plata)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Livrare)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Livrare)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Data_incasarii)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Data_incasarii)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Mentiuni)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Mentiuni)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a> |
+   
+</div>
