@@ -5,12 +5,6 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application.csproj", "{CE24DE3B-8818-46B4-9006-542948D3C556}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "necesitati", "necesitati", "{BB068A3F-DC19-49FD-A0CA-4CEA8409A6D9}"
-	ProjectSection(SolutionItems) = preProject
-		Views\Invoicee.html = Views\Invoicee.html
-		SQL SCRIPT FILES\SQLQuery2.sql = SQL SCRIPT FILES\SQLQuery2.sql
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

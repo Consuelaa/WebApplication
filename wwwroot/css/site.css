@@ -15,5 +15,168 @@ html {
 
 body {
   margin-bottom: 60px;
-  background-color:lightgray;
+ 
+}
+
+
+.custom-navbar {
+  margin-top: 19px;
+}
+
+.custom-home{
+  background-color:rgba(26, 103, 190, 0.97);
+  border: darkblue;
+  height: 40px;
+  width: 70px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left:15px;
+  margin-right: 20px;
+  font-weight:bold ;
+  font-size: 16px;
+  border-style: solid;
+  padding-left: 8px;
+  padding-bottom: 10px;
+  padding-top: 4px;
+}
+
+.custom-home:hover {
+  background-color: rgba(36, 100, 168, 0.97);
+}
+
+
+
+
+.my-custom-styleA {
+  background-color:rgba(14, 79, 131, 0.97);
+  border: none;
+  height: 40px;
+  width: 80px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 20px;
+  font-weight:bold ;
+  font-size: 14px;
+  border-style: solid;
+  transition: background-color 1s;
+}
+
+.my-custom-styleA:hover {
+  background-color: rgba(34, 95, 121, 0.97);
+}
+
+.my-custom-styleA:active {
+  background-color: rgba(123, 173, 218, 0.97);
+}
+
+
+
+
+
+.custom-Search {
+  background-color:rgba(25, 81, 167, 0.97);
+  border-radius: 10px;
+  margin-right: 20px;
+  height: 40px;
+  width: 70px;
+  font-weight:bold ;
+  font-size: 14px;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.custom-Search:hover {
+  background-color: rgba(36, 151, 205, 0.97);
+}
+
+.custom-Search:active {
+  background-color: rgba(53, 169, 232, 0.97);
+}
+
+
+
+
+
+.custom-invoice {
+  background-color:rgba(43, 99, 134, 0.97);
+  border-radius: 10px;
+  margin-right: 20px;
+  height: 40px;
+  width: 70px;
+  font-weight:bold ;
+  font-size: 14px;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.custom-invoice:hover {
+  background-color: rgba(29, 143, 165, 0.97);
+}
+
+.custom-invoice:active {
+  background-color: rgba(75, 178, 230, 0.97);
+}
+
+
+
+
+.custom-logout {
+  background-color:rgba(16, 107, 156, 0.97);
+  border-radius: 30px;
+  margin-right: 20px;
+  height: 40px;
+  width: 70px;
+  font-weight:bold ;
+  font-size: 14px;
+  border-style: solid;
+  cursor: pointer;
+}
+
+
+.custom-register {
+  background-color:rgba(21, 135, 216, 0.97);
+  border-radius: 10px;
+  margin-right: 20px;
+  height: 40px;
+  width: 80px;
+  font-weight:bold ;
+  font-size: 14px;
+  border-style: solid;
+  cursor: pointer;
+  color:black;
+  padding-left: 10px;
+  padding-top: 6px;
+}
+
+.custom-register:hover {
+  background-color:rgba(30, 145, 191, 0.97) ;
+}
+
+.custom-register:active {
+  background-color: rgba(99, 172, 235, 0.97);
+}
+
+
+
+
+.custom-login {
+  background-color:rgba(13, 68, 113, 0.97);
+  border-radius: 10px;
+  height: 40px;
+  width: 60px;
+  font-weight:bold ;
+  border:black;
+  font-size: 14px;
+  border-style: solid;
+  cursor: pointer;
+  color:black;
+  padding-left: 9px;
+}
+
+.custom-login:hover {
+  background-color: rgba(26, 142, 188, 0.97);
+}
+
+.custom-login:active {
+  background-color: rgba(141, 176, 225, 0.97);
 }

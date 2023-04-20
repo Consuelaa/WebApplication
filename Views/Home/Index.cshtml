@@ -1,9 +1,52 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<head>
+    @{
+        ViewData["Title"] = "";
+    }
+    <style>
+        .img {
+            float: left;
+            margin-right: 250px;
+            width: 360px;
+            height: 360px;
+        }
 
-<div class="text-center"  >
-    <h1 class="display-4"  >
-        Bine ai venit! Speram cu chef de treaba!
-        </h1>
-</div>
+        .text-container {
+            overflow: hidden;
+            position: fixed; 
+            top: 30%; /* Added to vertically center the container */
+            left: 10%; /* Added to horizontally center the container */
+            right: 21%;
+            display:block;
+        }
+
+        .text-container::after {
+            content: "";
+            display: table;
+            clear: both;
+            position: fixed;
+            
+        }
+
+        .text-container > div:last-child {
+            text-align: right;
+            margin-top: 0%;
+            font-style: italic;   
+            display:block;
+          
+        }
+        
+       
+    </style>
+</head>
+
+<body >
+    <div class="text-container">
+        <img class="img" src="img/fundal2.jpg" />
+        <div>
+            <h1 class="display-4" style="color:#D9F73F; font-size:28px; font-family:serif; margin-top:100px; " >
+                "Concentrate all your thoughts upon the work in hand. 
+                The sun's rays do not burn until brought to a focus."
+            </h1>
+        </div>
+    </div>
+</body>

@@ -1,13 +1,42 @@
 ﻿@model Application.Models.Activity
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "";
 }
 
+<head>
+    <style>
+        h1 {
+            color:wheat;
+            margin-top: 40px;
+            margin-bottom: 25px;
+        }
+
+        .edit {
+            color:white;
+        }
+
+        .edit:hover {
+            color: yellow;
+        }
+
+
+        .back {
+            color:white;
+        }
+
+        .back:hover {
+            color: yellow;
+        }
+
+
+    </style>
+</head>
+
+<body>
 <h1>Details</h1>
 
-<div>
-    <h4>Activity</h4>
+<div style="color:wheat;">
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -49,25 +78,25 @@
         <dt class = "col-sm-2" >
             @Html.DisplayNameFor(model => model.Pret_Element ) 
         </dt>
-        <dd class = "col-sm-10">
+        <dd class = "col-sm-11">
             @Html.DisplayFor(model => model.Pret_Element)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Pret_Manopera)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class = "col-sm-11">
             @Html.DisplayFor(model => model.Pret_Manopera)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Adaos)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class = "col-sm-11">
             @Html.DisplayFor(model => model.Adaos)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Pret_Final)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class = "col-sm-11">
             @Html.DisplayFor(model => model.Pret_Final)
         </dd>
         <dt class = "col-sm-2">
@@ -96,8 +125,10 @@
         </dd>
     </dl>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a> |
-   
+<div style="margin-top:30px; margin-bottom:10px;">
+    <a class="edit" asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> 
 </div>
+<div>
+    <a class="back" asp-action="Index">Back to List</a> 
+</div>
+</body>

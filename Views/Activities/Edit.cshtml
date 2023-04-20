@@ -1,15 +1,45 @@
 ﻿@model Application.Models.Activity
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "";
 }
 
+<head>
+    <style>
+        h1 {
+            color:wheat;
+            margin-top: 40px;
+        }
+
+        .back {
+            color:white;
+        }
+
+        .back:hover {
+            color: yellow;
+        }
+
+        .btn-primary{
+            margin-bottom: 20px;
+            margin-top: 50px;
+            background-color: wheat;
+            color: black;
+        }
+
+        .btn-primary:hover {
+            background-color: rgb(134, 208, 23);
+        }
+
+    </style>
+</head>
+
+
+<body>
 <h1>Edit</h1>
 
-<h4>Activity</h4>
 <hr />
 <div class="row">
-    <div class="col-md-4">
+    <div style="color:wheat;" class="col-md-4">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
@@ -91,7 +121,7 @@
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a class="back" asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {
@@ -133,3 +163,4 @@
     </script>
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+</body>

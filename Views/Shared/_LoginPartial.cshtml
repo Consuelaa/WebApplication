@@ -1,26 +1,79 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
+<head>
+    <style>
+        .custom-login {
+  background-color:rgba(13, 68, 113, 0.97);
+  border-radius: 10px;
+  height: 40px;
+  width: 60px;
+  font-weight:bold ;
+  font-size: 14px;
+  border-style: solid;
+  cursor: pointer;
+  border:black;
+  color:black;
+}
 
-<ul class="navbar-nav">
+.custom-login:hover {
+    background-color: rgba(26, 142, 188, 0.97);
+}
+
+.custom-login:active {
+  background-color: rgba(141, 176, 225, 0.97);
+}
+
+
+
+.custom-register {
+  background-color:rgba(21, 135, 216, 0.97);
+  border:none;
+  color:black
+  border-radius: 30px;
+  margin-right: 20px;
+  height: 40px;
+  width: 80px;
+  font-weight:bold ;
+  font-size: 14px;
+  border-style: solid;
+  cursor: pointer;
+}
+.custom-register:hover {
+   background-color:rgba(30, 145, 191, 0.97) ;
+}
+
+.custom-register:active {
+  background-color: rgba(99, 172, 235, 0.97);
+}
+    </style>
+</head>
+
+
+
+
+
+<body style=" background: linear-gradient( 135deg, rgb(6, 12, 38) 0%, rgb(16, 82, 104) 69%, rgb(21, 115, 118) 89% ); >
+<ul class="navbar">
 @if (SignInManager.IsSignedIn(User))
 {
     <li class="nav-item">
-        <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
+        <a  class="nav-link text-light" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
     </li>
     <li class="nav-item">
         <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-            <button  type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+            <button  type="submit" class="nav-link btn btn-link custom-logout">Logout</button>
         </form>
     </li>
 }
 else
 {
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
+    <li class="nav">
+        <a class="nav-link custom-register" asp-area="Identity" asp-page="/Account/Register">Register</a>
     </li>
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
+    <li class="nav">
+        <a class="nav-link custom-login" asp-area="Identity" asp-page="/Account/Login">Login</a>
     </li>
 }
 </ul>
+</body>

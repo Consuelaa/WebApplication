@@ -1,15 +1,64 @@
 ﻿@model IEnumerable<Application.Models.Activity>//IEnumerable=lista de activitati
 
+<head>
+    <style>
+        h1 {
+            color:wheat;
+            margin-top: 40px;
+        }
+
+        .edit {
+            color:yellow;
+
+        }
+        .edit:hover {
+            color:rgb(18, 194, 18) ;
+        }
+
+
+
+        .details {
+            color:yellow;
+
+        }
+        .details:hover {
+           color: rgb(18, 194, 18);
+        }
+
+
+        .delete {
+            color:yellow;
+
+        }
+         .delete:hover {
+           color: rgb(18, 194, 18);
+        }
+
+
+        .create {
+            color:yellow;
+        }
+
+        .create:hover {
+            color: rgb(18, 194, 18);
+        }
+        
+
+    </style>
+</head>
+
+
+<body>
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "";
 }
 
 <h1>Index</h1>
 
 <p>
-    <a asp-action="Create">Create New Activity</a>
+    <a class="create" asp-action="Create">Create New Activity</a>
 </p>
-<table class="table">
+<table style="color:wheat;" class="table">
     <thead>
         <tr>
             <th>
@@ -103,11 +152,12 @@
                 @Html.DisplayFor(modelItem => item.Mentiuni)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> 
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> 
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a class="edit" asp-action="Edit" asp-route-id="@item.Id">Edit</a> 
+                <a class="details" asp-action="Details" asp-route-id="@item.Id">Details</a> 
+                <a class="delete" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+</body>

@@ -1,5 +1,91 @@
-﻿<h4>Search for an Activity</h4>
-<hr />
+﻿<head>
+    <style>
+        h4 {
+            margin-top: 60px;
+            color:rgb(135, 101, 39);
+            font-size:30px;
+        }
+
+        .custom-back {
+             background-color:rgba(87, 99, 81, 0.97);
+             border: none;
+             height: 50px;
+             width: 70px;
+             border-radius: 10px;
+             cursor: pointer;
+             margin-top:20px;
+             margin-bottom: 20px;;
+             margin-left:5px;
+             margin-right: 20px;
+             font-weight:bold ;
+             font-size: 16px;
+             border-style: solid;
+             color: black;
+             padding-left: 5px;
+             padding-right: 5px;
+             padding-bottom: 5px;
+             padding-top: 5px;
+        }
+
+        .custom-back:hover {
+             background-color: rgba(138, 75, 75, 0.97);
+             border: black;
+             color:black;
+        }
+
+        .custom-back:active {
+             background-color: rgba(177, 137, 137, 0.97);
+             border: black;
+             color:black;
+        }
+
+
+
+        .btn-primary{
+            background-color:rgba(143, 136, 16, 0.97);
+            boredr:none;
+            height: 50px;
+            width: 70px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            margin-left:5px;
+            color: black;
+            font-size:16px;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            border-style: solid;
+            padding-left: 7px;
+
+        }
+
+        .btn-primary:hover {
+            background-color: rgba(138, 75, 75, 0.97);
+            border: black;
+            color:black;
+        }
+
+        .btn-primary:active {
+           background-color: rgba(177, 137, 137, 0.97);
+           border: black;
+           color:black;
+        }
+
+
+        .form-control {
+           font-family: 'Courier New', Courier, monospace;
+           width: 500px;
+           font-size: 20px;
+           font-weight: 600;
+           border:black;
+        }
+    </style>
+</head>
+
+
+<body style=" background: linear-gradient( 135deg, rgb(6, 12, 38) 0%, rgb(16, 82, 104) 69%, rgb(21, 115, 118) 89% ); ">
+<h4 style="">Search for an Activity:</h4>
+<hr/>
 <div class="row">
     <div class="col-md-4">
         <form asp-action="ShowSearchResults">
@@ -17,5 +103,6 @@
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a class="custom-back" asp-action="Index">Back to List</a>
 </div>
+</body>
