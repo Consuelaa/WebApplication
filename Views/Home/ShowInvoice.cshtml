@@ -6,12 +6,77 @@
     <link href="~/css/Invoicee.css" rel="stylesheet" asp-append-version="true" />
     <style>
        .back {
-            color:white;
+            background-color:rgba(113, 194, 15, 0.97);
+             border: none;
+             height: 50px;
+             width: 70px;
+             border-radius: 10px;
+             cursor: pointer;
+             margin-bottom: 30px;
+             margin-right: 20px;
+             font-weight:bold ;
+             font-size: 16px;
+             border-style: solid;
+             color: black;
+             padding-left: 5px;
+             padding-right: 5px;
+             padding-bottom: 5px;
+             padding-top: 5px;
         }
 
         .back:hover {
-            color: yellow;
+            color: rgb(42, 96, 8);
         }
+
+
+        .btnSave {
+             background-color:rgba(123, 162, 13, 0.97);
+             border: none;
+             height: 40px;
+             width: 50px;
+             border-radius: 10px;
+             cursor: pointer;
+             margin-bottom: 20px;
+             margin-right: 20px;
+             font-weight:bold ;
+             font-size: 16px;
+             border-style: solid;
+             color: black;
+             padding-left: 5px;
+             padding-right: 5px;
+             padding-bottom: 5px;
+             padding-top: 5px;
+
+        }  
+
+        .btnSave:hover {
+            color: rgb(53, 122, 10);
+        }
+
+
+
+        .btnNew {
+             background-color:rgba(87, 104, 20, 0.97);
+             border: none;
+             height: 40px;
+             width: 105px;
+             border-radius: 10px;
+             cursor: pointer;
+             font-weight:bold ;
+             font-size: 16px;
+             border-style: solid;
+             color: black;
+             padding-left: 5px;
+             padding-right: 5px;
+             padding-bottom: 5px;
+             padding-top: 5px;
+        }  
+
+        .btnNew:hover {
+            color: rgb(172, 133, 17);
+        }
+
+
     </style>
 </head>
 <body  >
@@ -236,9 +301,9 @@
             </tbody>
         </table>
     </div>
-    <div class="form-group"> <input type="submit" value="Save" class="btnSave btn-primary" /></div>
-    <div class="form-group"> <input type="submit" value="New Invoice" class="btnNew btn-primary" /></div>
-    <div> <a class="back" asp-action="Index">Back</a> </div>
+    <div style="margin-top:30px; class="form-group"> <input type="submit" value="New Invoice" class="btnNew " /></div>
+    <div style="margin-top:15px; class="form-group"> <input type="submit" value="Save" class="btnSave " /></div>
+    <div style="margin-top:10px;"> <a class="back" asp-action="Index">Back</a> </div>
 
 
     @section Scripts {
